@@ -1,0 +1,135 @@
+body {
+    background-color: #504f76;
+    background-repeat: no-repeat;
+    font-family: Helvetica;
+  }
+  p { 
+    color :white;
+  }
+  h1 {
+      font-size : 21px;
+      margin : auto;
+      text-align: center;
+      padding-top:8px;
+      color:white;
+  }
+  #header {
+      color: white;
+      border-radius: 8px;
+      margin: auto;
+      height: 40px;
+      width: 400px;
+      margin-bottom: 20px;
+  }
+  #userSearch {
+    background: #121212;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.2s;
+    margin: 0 auto;
+    width: 300px;
+    color:white;
+  }
+  #userSearch::placeholder {
+      color:gray;
+  }
+  #banner-message {
+    border-radius: 4px;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    transition: all 0.2s;
+    margin: 0 auto;
+    width: 400px;
+    height: 800px
+  }
+  
+  #button {
+    background: #121212;
+    border-radius: 8px;
+    width: 300px;
+    color: #fff;
+    box-shadow: none;
+  }
+  #button:hover {
+    background: #141414;
+    box-shadow: none;
+  }
+  #button:focus {
+    background: #121212;
+    border-color:#504f76;
+    box-shadow: none;
+  }
+  #button:visited {
+    background: #121212;
+    border-color:#504f76;
+    box-shadow: none;
+  }
+
+  #banner-message.alt {
+    background: #111111;
+    color: #fff;
+    margin-top: 40px;
+    width: 200px;
+  }
+  
+  #banner-message.alt button {
+    background: #fff;
+    color: #000;
+  }
+  
+  #other-message {
+      font-size: 14px!important;
+      color: gray;
+  }
+  @media only screen and (max-width: 600px) {
+  div {
+    width: 100%;
+  }
+  html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+}
+}
+  pre code {
+    background-color: #121212;
+    border: 1px solid #121212;
+    display: block;
+    padding: 20px;
+    overflow: scroll;
+    text-align:left;
+    font-size: 12px;
+    border-radius: 8px;
+    color:white;
+  }
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+  pre{
+          margin-bottom: -30px;
+        }
+div {
+    background-color: #090909!important;
+}
+#creditos {
+    color: rgb(255, 51, 0);
+    text-align: center;
+  margin: auto;
+}
+#creditos:hover {
+    color:white;
+}
+#house_div img[src] {
+    display:inline-block;
+}
+#house_div img {
+    display: none;
+}
+#userAvatar {
+    padding-top: 8px;
+}
+
